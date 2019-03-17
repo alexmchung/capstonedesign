@@ -5,7 +5,11 @@ for capstone design class
 making repository and add readme
 
 2st assignment
-data 손으로 만졌을 때 온도 올라가는 지 test
+Touching the temperature sensor to test if the temperature goes up.
 
-github에 ds18b20 온도센서를 thingspeak로 보내는 프로그램 올리고 링크제출
-thing speak public URL링크 제출 최소 2시간 이상 지속가동중인 것 점검평가
+*** 
+https://thingspeak.com/channels/725826/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15
+You can check out the temperature of my room at live time in the link above.
+The first few minutes is an error showing temperatures of -127 and +81. This is due to wrong pairing of the circuit board. So it should be neligible to the true data.
+***
+
