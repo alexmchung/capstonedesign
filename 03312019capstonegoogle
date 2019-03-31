@@ -23,6 +23,8 @@ String apiKey = "ESCDRT57J2XGF2GT"; // to be changed
 
 ESP8266WiFiMulti WiFiMulti;
 
+String apiKey ="ESCDRT57j2XGF2GT";
+const char* MY_PWD = "1507075253";
 
 
 void setup() {
