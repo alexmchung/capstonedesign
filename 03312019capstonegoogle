@@ -92,7 +92,7 @@ void sendAWS(float temp)
    postStr += String(temp);
    //postStr += "\r\n\r\n";
    client.print("POST /log HTTP/1.1\n");
-   client.print("Host: ec2-52-12-68-77.us-west-2.compute.amazonaws.com:9000\n");
+   client.print("Host: ec2-18-222-173-200.us-east-2.compute.amazonaws.com:9000\n");
    //client.print("Connection: close\n");
    client.print("Content-Type: application/x-www-form-urlencoded\n");
    client.print("Content-Length: ");
