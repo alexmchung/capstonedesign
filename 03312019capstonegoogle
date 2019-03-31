@@ -111,7 +111,7 @@ void sendAWS(float temp)
    postStr += String(now);
    Serial.println(postStr);
    client.print("GET " + postStr + "\n");
-   client.print("Host: ec2-52-12-68-77.us-west-2.compute.amazonaws.com:9000\n");
+   client.print("Host: ec2-18-222-173-200.us-east-2.compute.amazonaws.com:9000\n");
    client.print("Connection: close\r\n\r\n\n");
    delay(1000);
    
